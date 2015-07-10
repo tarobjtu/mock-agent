@@ -1,0 +1,40 @@
+{
+  "name": "mock-agent",
+  "version": "0.0.2",
+  "description": "线上ajax请求抓去工具，connect中间件。这两件事结合起来很有意义，工具从线上抓真实数据，生成mock文件，更加真实，快速。connect中间件用于对外提供mock数据服务。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tarobjtu/mock-agent.git"
+  },
+  "keywords": [
+    "middleware",
+    "mock",
+    "anyProxy",
+    "proxy",
+    "ajax",
+    "connect"
+  ],
+  "author": {
+    "name": "tarobjtu",
+    "url": "导演"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarobjtu/mock-agent/issues"
+  },
+  "homepage": "https://github.com/tarobjtu/mock-agent",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "fs-extra": "~0.22.1",
+    "lodash": "~3.10.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "_id": "mock-agent@0.0.1",
+  "_shasum": "d1130cf286e4ad5566706f1c547f3410c67306f5",
+  "_from": "mock-agent@*"
+}
